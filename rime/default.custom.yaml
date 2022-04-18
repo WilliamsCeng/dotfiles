@@ -1,0 +1,11 @@
+patch:
+  "menu/page_size": 9
+  ascii_composer:
+    good_old_caps_lock: true #切换大小写，true允许
+    switch_key:
+      Caps_Lock: clear
+      Shift_L: commit_code
+      Shift_R: commit_code
+      Control_L: noop
+      Control_R: noop
+# 参考,包括rime横排显示 github：https://github.com/loaden/rime
