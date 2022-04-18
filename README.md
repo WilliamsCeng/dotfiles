@@ -15,5 +15,5 @@ dotfiles 是指 Linux 工具常用 .(dot)开头的文件来进行 个性化的�
 
 如下：
 
-dotfiles文件夹+ symlinks + git 版本控制 + bash 脚本自动配置 (在特定的目录下 生成 symlinks 完成工具的自动配置)
+dotfiles文件夹+ symlinks + git 版本控制 + bash 脚本自动配置 (在特定的目录下 生成 相应dotfile 的 symlinks 以完成工具的自动配置)
 
