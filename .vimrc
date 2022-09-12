@@ -27,7 +27,7 @@ runtime! debian.vim
 
 " If using a dark background within the editing area and syntax highlighting
 " turn on this option as well
-set background=dark
+"set background=dark
 
 " Uncomment the following to have Vim jump to the last position when
 " reopening a file
@@ -58,10 +58,12 @@ endif
 
 "setlocal noswapfile " 不要生成swap文件
 "set bufhidden=hide " 当buffer被丢弃的时候隐藏它
-"colorscheme evening " 设定配色方案
+colorscheme morning " 设定配色方案 evening morning
 set number " 显示行号
 set relativenumber " 显示相对行号
 set cursorline " 突出显示当前行
+highlight cursorline cterm=none  ctermbg=gray " use :h hightlight can check the help information
+
 set ruler " 打开状态栏标尺
 "set shiftwidth=2 " 设定 << 和 >> 命令移动时的宽度为 2
 set softtabstop=2 " 使得按退格键时可以一次删掉 2 个空格
